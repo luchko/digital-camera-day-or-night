@@ -59,7 +59,7 @@ def sampleImages(imagesFolder,num_pix=1000):
         if d == 3:
             img_arr = np.reshape(img, (w * h, d))
             #randomly pick num_pix puxels in image
-            rand_ids = shuffle(range(w*h))[:num_pix]
+            rand_ids = np.random.choice(w*h, num_pix, replace=False)
             imgs_sample[k:k+num_pix,:] = img_arr[rand_ids,:]
     
     print("done in %0.3fs.\n" % (time() - t0))
