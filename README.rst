@@ -1,7 +1,7 @@
 Digital Camera Autodetect: Day or Night
 ========================================
 
-Computer Vision tool which allows to detect whether picture was shot during day or night time. This tool is created using ``Python`` and heavily exploits ``scikit-learn`` library.
+**Computer Vision** tool which allows to detect whether picture was shot during day or night time. This tool is created using ``Python`` and heavily exploits ``scikit-learn`` library.
 
 This task was proposed as a competition at `www.hackerrank.com <https://www.hackerrank.com/challenges/digital-camera-day-or-night>`_.
 
